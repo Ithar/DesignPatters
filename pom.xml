@@ -22,7 +22,8 @@
     </build>
     <modules>
         <module>creational</module>
-        <module>archieved</module>
+        <module>archived</module>
+        <module>structural</module>
     </modules>
 
     <dependencies>

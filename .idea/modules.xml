@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Design Patterns.iml" filepath="$PROJECT_DIR$/Design Patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/archived/archived.iml" filepath="$PROJECT_DIR$/archived/archived.iml" />
+      <module fileurl="file://$PROJECT_DIR$/archived/archieved.iml" filepath="$PROJECT_DIR$/archived/archieved.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational/creational.iml" filepath="$PROJECT_DIR$/creational/creational.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structural/structural.iml" filepath="$PROJECT_DIR$/structural/structural.iml" />
     </modules>
   </component>
 </project>
