@@ -1,13 +1,7 @@
-package com.ithar.malik.creational.builder;
+package builder.staticclass;
 
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html - Improving Code with Lambda Expressions
- * @author MikeW
- */
 public class Person {
+
     private String givenName;
     private String surName;
     private int age;
@@ -15,7 +9,7 @@ public class Person {
     private String phone;
     private String address;
 
-    public static class Builder{
+    public static class Builder {
 
         private String givenName="";
         private String surName="";
@@ -98,11 +92,12 @@ public class Person {
 
     public void print(){
         System.out.println(
-            "\nName: " + givenName + " " + surName + "\n" +
-                "Age: " + age + "\n" +
-                "eMail: " + eMail + "\n" +
-                "Phone: " + phone + "\n" +
-                "Address: " + address + "\n"
+                "\nName: " + givenName + " " + surName + "\n" +
+                        "Age: " + age + "\n" +
+                        "eMail: " + eMail + "\n" +
+                        "Phone: " + phone + "\n" +
+                        "Address: " + address + "\n"
         );
     }
+
 }
