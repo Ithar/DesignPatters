@@ -21,7 +21,8 @@
         </plugins>
     </build>
     <modules>
-        <module>design-patterns</module>
+        <module>creational</module>
+        <module>archieved</module>
     </modules>
 
     <dependencies>
