@@ -24,6 +24,7 @@
         <module>creational</module>
         <module>archived</module>
         <module>structural</module>
+        <module>behavioural</module>
     </modules>
 
     <dependencies>
