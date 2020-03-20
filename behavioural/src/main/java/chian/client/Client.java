@@ -22,15 +22,14 @@ public class Client {
 
     private static Denomination ATMChain() {
 
-        Denomination d10 = new Denomination10();
+        Denomination fifty = new Denomination50();
+        Denomination twenty = new Denomination20();
+        Denomination ten = new Denomination10();
 
-        Denomination d20 = new Denomination20();
-        d20.next(d10);
+        fifty.next(twenty);
+        twenty.next(ten);
 
-        Denomination d50 = new Denomination50();
-        d50.next(d20);
-
-        return d50;
+        return fifty;
     }
 
 }
