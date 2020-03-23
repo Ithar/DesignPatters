@@ -148,3 +148,4 @@ Thumbs.db
 # Folder config file
 Desktop.ini
 /structural/target/classes/META-INF/structural.kotlin_module
+/behavioural/target/classes/META-INF/behavioural.kotlin_module

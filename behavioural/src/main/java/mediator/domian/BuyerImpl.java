@@ -10,13 +10,13 @@ public class BuyerImpl extends Buyer {
 
     @Override
     public void bid(int price) {
-        System.out.println(this.getName() + " has placed a bid of: £" + price);
+        System.out.println(this.getName() + " has PLACED a bid of: £" + price);
         this.price = price;
     }
 
     @Override
     public void cancelBid() {
-        System.out.println(this.getName() + " has cancelled their bid.");
+        System.out.println(this.getName() + " has CANCELLED their bid.");
         this.price = -1;
     }
 }
