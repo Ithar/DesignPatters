@@ -10,4 +10,13 @@ public class WoodenHouse extends HouseTemplate {
     protected void buildWalls() {
         System.out.println("Building walls with wood.");
     }
+
+    @Override
+    protected boolean hookMethod() {
+        return true;
+    }
+
+    protected void buildRoof() {
+        System.out.println("Building roof with wood !!! ");
+    }
 }

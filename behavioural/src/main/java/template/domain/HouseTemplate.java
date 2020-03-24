@@ -6,6 +6,11 @@ public abstract class HouseTemplate {
         buildFoundation();
         buildPillars();
         buildWalls();
+
+        if (hookMethod()) {
+            buildRoof();
+        }
+
         System.out.println("House built completed.");
     }
 
@@ -15,5 +20,8 @@ public abstract class HouseTemplate {
 
     protected abstract void buildPillars();
     protected abstract void buildWalls();
-
+    protected boolean hookMethod() {
+        return false;
+    }
+    protected void buildRoof() {}
 }
